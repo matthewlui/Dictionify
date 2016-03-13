@@ -105,6 +105,9 @@ func getPropertyNameString(property:objc_property_t) -> String {
 func getStringFromPointer(startPointer:UnsafePointer<Int8>) -> String {
     var i = 0
     var s = ""
+    if let str = String.fromCString(startPointer) {
+        return str
+    }
     repeat {
         let n = startPointer.advancedBy(i).memory
         let s1 = String(UnicodeScalar(UInt8(n)))
