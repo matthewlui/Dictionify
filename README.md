@@ -31,7 +31,7 @@ Also, we allow you to init a object with dictionary. Even more, Dictionify can r
     var ben = Person(name:Ben)
     var book = Book("I love",content:"Bla Bla Bla...")
     ben.likedBook = [book]
-    var benDict = ben.toDictionary()
+    var benDict = ben.toDictionary(withClassName: true) /// when with class name, Dictionify can instantiate archived property with proper class.
     var anotherBen = Person(benDict)
     var anotherBook = anotherBen.likedBook.first
 ```
