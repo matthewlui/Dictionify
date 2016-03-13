@@ -67,9 +67,9 @@ public class Dictionify : NSObject {
 public func instanceFromDictionary(dictionary:NSDictionary) -> AnyObject{
     if let className = dictionary[Dictionify.DictionifyClassNameKey] as? String,
         aClass = objc_getClass(className) as? AnyClass{
-            var o = NSObject()
+            let o = NSObject()
             object_setClass(o, aClass)
-            var obj = o.self.dynamicType.init()
+            let obj = o.self.dynamicType.init()
             object_setClass(o, NSObject.self)
             for (cK,cV) in dictionary {
                 guard let cK = cK as? String else {
