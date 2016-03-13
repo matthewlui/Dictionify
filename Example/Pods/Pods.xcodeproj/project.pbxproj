@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26EF02714DB4F5ACB4B465D9FF3CF242 /* Dictionify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF120A7DB7BBA12D9632C7A145BB17B /* Dictionify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A9C1D9FF15D52D98681D63210C1D032 /* Dictionify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ACE3CE0B9405164C6A1A427AFFE93C /* Dictionify.swift */; };
+		5F2D826B060960A70B0986734B20A868 /* Dictionify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3BF48C8C484C77136312256C53DFA3AD /* Dictionify.bundle */; };
+		608645F5D2B3D1D0498858BEDDC056A3 /* Pods-Dictionify_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8170DADFBC82F7D3058AC6F9C6258898 /* Pods-Dictionify_Tests-dummy.m */; };
+		6A07AB916BB5C1979AFC33EAEA6834A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		791D3FB51C95437A002EA187 /* Dictionify.swift in Headers */ = {isa = PBXBuildFile; fileRef = 39ACE3CE0B9405164C6A1A427AFFE93C /* Dictionify.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		791D3FB61C9543CE002EA187 /* Dictionify.swift in Headers */ = {isa = PBXBuildFile; fileRef = 39ACE3CE0B9405164C6A1A427AFFE93C /* Dictionify.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACA87920FBC07E74BA4FC58BFDDA9419 /* Dictionify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D33D6463CD8861D80FD70C9B1C2CFF4 /* Dictionify-dummy.m */; };
+		E1094DDB18D76A1C3707368C46973459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F93F90E35E8742B88875E22342AB144F /* Pods-Dictionify_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F59536FAFDB6BCF1096CB6F19AF486C /* Pods-Dictionify_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00611217ED05C5A6268C355B391E9882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F01B54AB82EB0F3EBBBD5367C33F3043;
+			remoteInfo = Dictionify;
+		};
+		A06C7D44CE99C948CBA74D5107F0D2BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED23AF9BACE557BA7007AB4C873FC196;
+			remoteInfo = "Dictionify-Dictionify";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BCA0CBE6D6FC1B2D0DD88B072C72B61 /* Pods-Dictionify_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dictionify_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F59536FAFDB6BCF1096CB6F19AF486C /* Pods-Dictionify_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dictionify_Tests-umbrella.h"; sourceTree = "<group>"; };
+		39ACE3CE0B9405164C6A1A427AFFE93C /* Dictionify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dictionify.swift; sourceTree = "<group>"; };
+		3A5CA70023327740B01B14A8529E68BF /* Pods-Dictionify_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dictionify_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BF48C8C484C77136312256C53DFA3AD /* Dictionify.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dictionify.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		53CF90C6EBA8A07BBB31E7173C8EA1EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568F099F443C97D7889808AC4993DEBE /* Pods-Dictionify_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dictionify_Tests-resources.sh"; sourceTree = "<group>"; };
+		6F492BDD8C547BDD3829A9267AFFA43F /* Dictionify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dictionify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E7D23C81FC2D3DFD065E249A6104A7 /* Pods-Dictionify_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dictionify_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7EF120A7DB7BBA12D9632C7A145BB17B /* Dictionify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dictionify-umbrella.h"; sourceTree = "<group>"; };
+		8170DADFBC82F7D3058AC6F9C6258898 /* Pods-Dictionify_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dictionify_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D33D6463CD8861D80FD70C9B1C2CFF4 /* Dictionify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dictionify-dummy.m"; sourceTree = "<group>"; };
+		AB6F9C33B489A73633B84905329A0CF0 /* Pods-Dictionify_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dictionify_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE9FD87FFC1A2967D1086A90CE819C8D /* Pods_Dictionify_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dictionify_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11E0F4562ED96A05949F08498B24AAB /* Pods-Dictionify_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Dictionify_Tests.modulemap"; sourceTree = "<group>"; };
+		CD0DEBEBECCF493A11223E8A6497106B /* Dictionify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dictionify-prefix.pch"; sourceTree = "<group>"; };
+		D41C03D14EEDDF01227CBE5866CFE087 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBEA252D77ED034CAD791BCE1393EBC /* Pods-Dictionify_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dictionify_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA0DBD7FD2D2ED31FB47110F954183B /* Dictionify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Dictionify.modulemap; sourceTree = "<group>"; };
+		FD601D9804CA9305378AEC5976F41670 /* Dictionify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dictionify.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C02AD134EFBEBCF23E24A7A58DD5975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0352737CEA899B83DEE2B9C1BC7DBC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A07AB916BB5C1979AFC33EAEA6834A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90729B91417BF7A613515962A4825AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1094DDB18D76A1C3707368C46973459 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BBA63D3CB43C064BBB0A8C2B14A65BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF48C8C484C77136312256C53DFA3AD /* Dictionify.bundle */,
+				6F492BDD8C547BDD3829A9267AFFA43F /* Dictionify.framework */,
+				BE9FD87FFC1A2967D1086A90CE819C8D /* Pods_Dictionify_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4241E472EEC7B02DC31953C93295ABA2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5C56266825BA0E6E8489DEADEAC30CEC /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		5C56266825BA0E6E8489DEADEAC30CEC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				39ACE3CE0B9405164C6A1A427AFFE93C /* Dictionify.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		77ED7C5EFFA5644176FF04FE2D8BEA91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCA0DBD7FD2D2ED31FB47110F954183B /* Dictionify.modulemap */,
+				FD601D9804CA9305378AEC5976F41670 /* Dictionify.xcconfig */,
+				9D33D6463CD8861D80FD70C9B1C2CFF4 /* Dictionify-dummy.m */,
+				CD0DEBEBECCF493A11223E8A6497106B /* Dictionify-prefix.pch */,
+				7EF120A7DB7BBA12D9632C7A145BB17B /* Dictionify-umbrella.h */,
+				53CF90C6EBA8A07BBB31E7173C8EA1EA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Dictionify";
+			sourceTree = "<group>";
+		};
+		7C3C1D9BEAF58526EB16F72E08F56E7C /* Dictionify */ = {
+			isa = PBXGroup;
+			children = (
+				4241E472EEC7B02DC31953C93295ABA2 /* Pod */,
+				77ED7C5EFFA5644176FF04FE2D8BEA91 /* Support Files */,
+			);
+			name = Dictionify;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				9352DEF0A6412678A8AE016931ABC702 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3BBA63D3CB43C064BBB0A8C2B14A65BD /* Products */,
+				BCC72FE29EED0B439CF1E8ADEBCC1077 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9352DEF0A6412678A8AE016931ABC702 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C3C1D9BEAF58526EB16F72E08F56E7C /* Dictionify */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCC72FE29EED0B439CF1E8ADEBCC1077 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C527FD015F01CC3F46F6FC94ACD45 /* Pods-Dictionify_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB0C527FD015F01CC3F46F6FC94ACD45 /* Pods-Dictionify_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D41C03D14EEDDF01227CBE5866CFE087 /* Info.plist */,
+				C11E0F4562ED96A05949F08498B24AAB /* Pods-Dictionify_Tests.modulemap */,
+				3A5CA70023327740B01B14A8529E68BF /* Pods-Dictionify_Tests-acknowledgements.markdown */,
+				1BCA0CBE6D6FC1B2D0DD88B072C72B61 /* Pods-Dictionify_Tests-acknowledgements.plist */,
+				8170DADFBC82F7D3058AC6F9C6258898 /* Pods-Dictionify_Tests-dummy.m */,
+				AB6F9C33B489A73633B84905329A0CF0 /* Pods-Dictionify_Tests-frameworks.sh */,
+				568F099F443C97D7889808AC4993DEBE /* Pods-Dictionify_Tests-resources.sh */,
+				2F59536FAFDB6BCF1096CB6F19AF486C /* Pods-Dictionify_Tests-umbrella.h */,
+				DCBEA252D77ED034CAD791BCE1393EBC /* Pods-Dictionify_Tests.debug.xcconfig */,
+				78E7D23C81FC2D3DFD065E249A6104A7 /* Pods-Dictionify_Tests.release.xcconfig */,
+			);
+			name = "Pods-Dictionify_Tests";
+			path = "Target Support Files/Pods-Dictionify_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EE2CC61DD9AC271278735368CBF68A41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EF02714DB4F5ACB4B465D9FF3CF242 /* Dictionify-umbrella.h in Headers */,
+				791D3FB51C95437A002EA187 /* Dictionify.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE24006D7541A01122D6C01A8079017F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93F90E35E8742B88875E22342AB144F /* Pods-Dictionify_Tests-umbrella.h in Headers */,
+				791D3FB61C9543CE002EA187 /* Dictionify.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C2CD898046FDCFE8044BCD4480976A03 /* Pods-Dictionify_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E8FB6BF14469317770968DF9A81416 /* Build configuration list for PBXNativeTarget "Pods-Dictionify_Tests" */;
+			buildPhases = (
+				E87A4805D48EBA6C1D84714CCE1FF24D /* Sources */,
+				E90729B91417BF7A613515962A4825AD /* Frameworks */,
+				FE24006D7541A01122D6C01A8079017F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67B15D6F2CA03BA4FD579CF7CD277A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Dictionify_Tests";
+			productName = "Pods-Dictionify_Tests";
+			productReference = BE9FD87FFC1A2967D1086A90CE819C8D /* Pods_Dictionify_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED23AF9BACE557BA7007AB4C873FC196 /* Dictionify-Dictionify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D429FAFFF63AC1293F938FB02F59D643 /* Build configuration list for PBXNativeTarget "Dictionify-Dictionify" */;
+			buildPhases = (
+				6AD11E2D772C0D46464A8E612ADF7552 /* Sources */,
+				9C02AD134EFBEBCF23E24A7A58DD5975 /* Frameworks */,
+				A62344662684A12173385D10460B422C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dictionify-Dictionify";
+			productName = "Dictionify-Dictionify";
+			productReference = 3BF48C8C484C77136312256C53DFA3AD /* Dictionify.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F01B54AB82EB0F3EBBBD5367C33F3043 /* Dictionify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67D5769285691D2D33404C39AE83A2B /* Build configuration list for PBXNativeTarget "Dictionify" */;
+			buildPhases = (
+				BD7BF2E8B843AD3E6DBFE41A52A08E42 /* Sources */,
+				E0352737CEA899B83DEE2B9C1BC7DBC1 /* Frameworks */,
+				CBE7FCA45BB58CADFD9093C9D277FCB8 /* Resources */,
+				EE2CC61DD9AC271278735368CBF68A41 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBA533BC282591656C0FF50FA4CB62BF /* PBXTargetDependency */,
+			);
+			name = Dictionify;
+			productName = Dictionify;
+			productReference = 6F492BDD8C547BDD3829A9267AFFA43F /* Dictionify.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3BBA63D3CB43C064BBB0A8C2B14A65BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F01B54AB82EB0F3EBBBD5367C33F3043 /* Dictionify */,
+				ED23AF9BACE557BA7007AB4C873FC196 /* Dictionify-Dictionify */,
+				C2CD898046FDCFE8044BCD4480976A03 /* Pods-Dictionify_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A62344662684A12173385D10460B422C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE7FCA45BB58CADFD9093C9D277FCB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2D826B060960A70B0986734B20A868 /* Dictionify.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AD11E2D772C0D46464A8E612ADF7552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7BF2E8B843AD3E6DBFE41A52A08E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA87920FBC07E74BA4FC58BFDDA9419 /* Dictionify-dummy.m in Sources */,
+				2A9C1D9FF15D52D98681D63210C1D032 /* Dictionify.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87A4805D48EBA6C1D84714CCE1FF24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608645F5D2B3D1D0498858BEDDC056A3 /* Pods-Dictionify_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D67B15D6F2CA03BA4FD579CF7CD277A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dictionify;
+			target = F01B54AB82EB0F3EBBBD5367C33F3043 /* Dictionify */;
+			targetProxy = 00611217ED05C5A6268C355B391E9882 /* PBXContainerItemProxy */;
+		};
+		EBA533BC282591656C0FF50FA4CB62BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Dictionify-Dictionify";
+			target = ED23AF9BACE557BA7007AB4C873FC196 /* Dictionify-Dictionify */;
+			targetProxy = A06C7D44CE99C948CBA74D5107F0D2BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10B4FD7DEF027EE65A4B6C2EA57DE94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD601D9804CA9305378AEC5976F41670 /* Dictionify.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Dictionify/Dictionify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dictionify/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Dictionify/Dictionify.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Dictionify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A7A4B9FBD42BDB146A5F85083B71769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD601D9804CA9305378AEC5976F41670 /* Dictionify.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Dictionify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		62C2AE64C605FCA8E8D7A56C477258E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD601D9804CA9305378AEC5976F41670 /* Dictionify.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Dictionify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		79EE4A7AB7FD2E765F2BE7BA5E39F44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E7D23C81FC2D3DFD065E249A6104A7 /* Pods-Dictionify_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dictionify_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dictionify_Tests/Pods-Dictionify_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Dictionify_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC8F7E1905BC7063C8CE7CF0DF0A9F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD601D9804CA9305378AEC5976F41670 /* Dictionify.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Dictionify/Dictionify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dictionify/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Dictionify/Dictionify.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Dictionify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7E0AF170AD60AF1CB4FB20993AC21E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCBEA252D77ED034CAD791BCE1393EBC /* Pods-Dictionify_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dictionify_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dictionify_Tests/Pods-Dictionify_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Dictionify_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16E8FB6BF14469317770968DF9A81416 /* Build configuration list for PBXNativeTarget "Pods-Dictionify_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E0AF170AD60AF1CB4FB20993AC21E3 /* Debug */,
+				79EE4A7AB7FD2E765F2BE7BA5E39F44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D429FAFFF63AC1293F938FB02F59D643 /* Build configuration list for PBXNativeTarget "Dictionify-Dictionify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C2AE64C605FCA8E8D7A56C477258E8 /* Debug */,
+				4A7A4B9FBD42BDB146A5F85083B71769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67D5769285691D2D33404C39AE83A2B /* Build configuration list for PBXNativeTarget "Dictionify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8F7E1905BC7063C8CE7CF0DF0A9F56 /* Debug */,
+				10B4FD7DEF027EE65A4B6C2EA57DE94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

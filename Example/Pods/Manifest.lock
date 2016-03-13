@@ -1,0 +1,14 @@
+PODS:
+  - Dictionify (0.1.0)
+
+DEPENDENCIES:
+  - Dictionify (from `../`)
+
+EXTERNAL SOURCES:
+  Dictionify:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Dictionify: 77e1373888a809af1e1d2346aacf3a6923ac83d6
+
+COCOAPODS: 0.39.0

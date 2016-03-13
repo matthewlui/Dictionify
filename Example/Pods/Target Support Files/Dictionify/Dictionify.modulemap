@@ -1,0 +1,6 @@
+framework module Dictionify {
+  umbrella header "Dictionify-umbrella.h"
+
+  export *
+  module * { export * }
+}

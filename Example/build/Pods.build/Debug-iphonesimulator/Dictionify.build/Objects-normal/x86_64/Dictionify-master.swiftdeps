@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "4a9b1480fa2cdb32cb87f4b65ba8c3a3"
+build_time: [511166100, 713213000]
+inputs:
+  "/Users/kinlui/Development/Frameworks/Dictionify/n/Dictionify/Pod/Classes/ReplaceMe.swift": [511165927, 0]
